@@ -2,7 +2,7 @@
 
 ## Problem
 
-When running `TheProject`, I noticed that the theme styles are not applied to the external compoenents. They are only applied to the internal ones.
+When running `TheProject`, I noticed that the theme styles are not applied to the external components. They are only applied to the internal ones.
 
 green | red
 --- | ---
@@ -17,7 +17,7 @@ I'm wondering why they are not included. Is there something wrong with how I'm b
 ## Overview
 
 ### TheComponents
-Several React components that are built with TypeScript and that use `treat` for styling. `Box` is a simpler version of [Braid's Box component](https://github.com/seek-oss/braid-design-system/blob/master/lib/components/Box/Box.tsx). and `SimpleText` is a just renders text in the current theme's `primary` color.
+Several React components that are built with TypeScript and that use `treat` for styling. `Box` is a simpler version of [Braid's Box component](https://github.com/seek-oss/braid-design-system/blob/master/lib/components/Box/Box.tsx) and `SimpleText` just renders text in the current theme's `primary` color.
 
 Both components should act as basic building blocks in a a shared component library. Therefore the project has its own `package.json` and it defines `react` and `react-treat` as `peerDependencies`. `treat` is defined as a `devDepenendency`.
 
