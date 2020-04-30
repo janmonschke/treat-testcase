@@ -35,7 +35,3 @@ It has a `TextComponent.tsx` that uses `useStyle` to the the `primary` color.
 In `App.tsx` it renders the external `Box` and `SimpleText` component and it's own `TextComponent`. Two themes (`greenTheme`, `redTheme`) are provided with a `TreatProvider`. A button is rendered, that toggles between the two themes.
 
 `npm i && npm run dev` will run the project locally at http://localhost:9000/.
-
-
-../../../../../../../Users/janmonschke/Coding/treat-experiments/TheProject/node_modules/thecomponent/dist/TheComponent
-../../../../../../../Users/janmonschke/Coding/treat-experiments/TheProject/node_modules/thecomponent/dist/TheComponent
