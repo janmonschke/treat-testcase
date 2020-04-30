@@ -13,7 +13,6 @@
     "regenerator-runtime": "0.13.2",
     "style-loader": "^1.2.1",
     "terser-webpack-plugin": "1.2.3",
-    "thecomponents": "0.0.3",
     "treat": "^1.4.1",
     "ts-loader": "6.2.1",
     "typescript": "3.7.5",
@@ -29,7 +28,6 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-treat": "^1.4.1",
-    "thecomponent": "0.0.1"
   },
   "scripts": {
     "build": "webpack --config ./webpack.prod.js --mode production",
